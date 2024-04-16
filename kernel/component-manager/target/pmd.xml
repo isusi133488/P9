@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2024-04-16T19:40:06.672">
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/component/api/ComponentManager.java">
+<violation beginline="35" endline="35" begincolumn="22" endcolumn="85" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ComponentManager" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'SAKAI_COMPONENTS_ROOT_SYS_PROP': the field is declared in an interface type
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/component/api/ServerConfigurationService.java">
+<violation beginline="41" endline="41" begincolumn="22" endcolumn="86" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'SERVICE_NAME': the field is declared in an interface type
+</violation>
+<violation beginline="44" endline="44" begincolumn="15" endcolumn="69" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'static final' on field 'CURRENT_SERVER_URL': the field is declared in an interface type
+</violation>
+<violation beginline="47" endline="47" begincolumn="15" endcolumn="71" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'static final' on field 'CURRENT_PORTAL_PATH': the field is declared in an interface type
+</violation>
+<violation beginline="324" endline="324" begincolumn="9" endcolumn="70" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="toolGroupIsSelected" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'toolGroupIsSelected': the method is declared in an interface type
+</violation>
+<violation beginline="331" endline="331" begincolumn="9" endcolumn="69" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="toolGroupIsRequired" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'toolGroupIsRequired': the method is declared in an interface type
+</violation>
+<violation beginline="389" endline="389" begincolumn="11" endcolumn="37" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getSakaiLocales" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSakaiLocales': the method is declared in an interface type
+</violation>
+<violation beginline="395" endline="395" begincolumn="11" endcolumn="58" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getLocaleFromString" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getLocaleFromString': the method is declared in an interface type
+</violation>
+<violation beginline="404" endline="404" begincolumn="11" endcolumn="61" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getCommaSeparatedListAsSet" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getCommaSeparatedListAsSet': the method is declared in an interface type
+</violation>
+<violation beginline="411" endline="411" begincolumn="11" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getSmtpServer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSmtpServer': the method is declared in an interface type
+</violation>
+<violation beginline="419" endline="419" begincolumn="11" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getSmtpFrom" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSmtpFrom': the method is declared in an interface type
+</violation>
+<violation beginline="426" endline="426" begincolumn="11" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getSmtpPort" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSmtpPort': the method is declared in an interface type
+</violation>
+<violation beginline="430" endline="430" begincolumn="24" endcolumn="50" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'UNKNOWN': the field is declared in an interface type
+</violation>
+<violation beginline="431" endline="431" begincolumn="24" endcolumn="55" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'TYPE_BOOLEAN': the field is declared in an interface type
+</violation>
+<violation beginline="432" endline="432" begincolumn="24" endcolumn="47" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'TYPE_INT': the field is declared in an interface type
+</violation>
+<violation beginline="433" endline="433" begincolumn="24" endcolumn="51" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'TYPE_ARRAY': the field is declared in an interface type
+</violation>
+<violation beginline="434" endline="434" begincolumn="24" endcolumn="53" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'TYPE_STRING': the field is declared in an interface type
+</violation>
+<violation beginline="435" endline="441" begincolumn="24" endcolumn="5" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public static final' on field 'TYPES': the field is declared in an interface type
+</violation>
+<violation beginline="452" endline="452" begincolumn="11" endcolumn="55" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getConfig': the method is declared in an interface type
+</violation>
+<violation beginline="463" endline="463" begincolumn="11" endcolumn="48" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getConfigItem" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getConfigItem': the method is declared in an interface type
+</violation>
+<violation beginline="474" endline="474" begincolumn="11" endcolumn="63" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="registerConfigItem" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'registerConfigItem': the method is declared in an interface type
+</violation>
+<violation beginline="485" endline="485" begincolumn="11" endcolumn="77" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="registerListener" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'registerListener': the method is declared in an interface type
+</violation>
+<violation beginline="493" endline="493" begincolumn="11" endcolumn="37" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService" method="getConfigData" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getConfigData': the method is declared in an interface type
+</violation>
+<violation beginline="500" endline="521" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on interface 'ConfigData': members of interface types are implicitly public
+</violation>
+<violation beginline="500" endline="521" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on interface 'ConfigData': member interfaces are implicitly static
+</violation>
+<violation beginline="504" endline="504" begincolumn="15" endcolumn="40" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" method="getTotalConfigItems" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getTotalConfigItems': the method is declared in an interface type
+</violation>
+<violation beginline="508" endline="508" begincolumn="15" endcolumn="45" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" method="getRegisteredConfigItems" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getRegisteredConfigItems': the method is declared in an interface type
+</violation>
+<violation beginline="512" endline="512" begincolumn="15" endcolumn="47" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" method="getUnRegisteredConfigItems" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getUnRegisteredConfigItems': the method is declared in an interface type
+</violation>
+<violation beginline="516" endline="516" begincolumn="15" endcolumn="36" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" method="getSources" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSources': the method is declared in an interface type
+</violation>
+<violation beginline="520" endline="520" begincolumn="15" endcolumn="42" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigData" method="getItems" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getItems': the method is declared in an interface type
+</violation>
+<violation beginline="526" endline="608" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on interface 'ConfigItem': members of interface types are implicitly public
+</violation>
+<violation beginline="526" endline="608" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on interface 'ConfigItem': member interfaces are implicitly static
+</violation>
+<violation beginline="532" endline="532" begincolumn="15" endcolumn="30" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="requested" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'requested': the method is declared in an interface type
+</violation>
+<violation beginline="540" endline="540" begincolumn="15" endcolumn="55" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="changed" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'changed': the method is declared in an interface type
+</violation>
+<violation beginline="547" endline="547" begincolumn="15" endcolumn="32" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="copy" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'copy': the method is declared in an interface type
+</violation>
+<violation beginline="552" endline="552" begincolumn="15" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getName" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getName': the method is declared in an interface type
+</violation>
+<violation beginline="556" endline="556" begincolumn="15" endcolumn="32" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getValue" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getValue': the method is declared in an interface type
+</violation>
+<violation beginline="560" endline="560" begincolumn="15" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getType" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getType': the method is declared in an interface type
+</violation>
+<violation beginline="564" endline="564" begincolumn="15" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getSource" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSource': the method is declared in an interface type
+</violation>
+<violation beginline="568" endline="568" begincolumn="15" endcolumn="39" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getDefaultValue" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getDefaultValue': the method is declared in an interface type
+</violation>
+<violation beginline="572" endline="572" begincolumn="15" endcolumn="38" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getDescription" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getDescription': the method is declared in an interface type
+</violation>
+<violation beginline="576" endline="576" begincolumn="15" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getRequested" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getRequested': the method is declared in an interface type
+</violation>
+<violation beginline="580" endline="580" begincolumn="15" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getChanged" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getChanged': the method is declared in an interface type
+</violation>
+<violation beginline="584" endline="584" begincolumn="15" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getVersion" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getVersion': the method is declared in an interface type
+</violation>
+<violation beginline="588" endline="588" begincolumn="15" endcolumn="43" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="getHistory" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getHistory': the method is declared in an interface type
+</violation>
+<violation beginline="593" endline="593" begincolumn="15" endcolumn="37" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="isRegistered" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'isRegistered': the method is declared in an interface type
+</violation>
+<violation beginline="598" endline="598" begincolumn="15" endcolumn="36" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="isDefaulted" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'isDefaulted': the method is declared in an interface type
+</violation>
+<violation beginline="602" endline="602" begincolumn="15" endcolumn="34" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="isSecured" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'isSecured': the method is declared in an interface type
+</violation>
+<violation beginline="607" endline="607" begincolumn="15" endcolumn="34" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigItem" method="isDynamic" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'isDynamic': the method is declared in an interface type
+</violation>
+<violation beginline="613" endline="630" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigHistory" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on interface 'ConfigHistory': members of interface types are implicitly public
+</violation>
+<violation beginline="613" endline="630" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigHistory" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on interface 'ConfigHistory': member interfaces are implicitly static
+</violation>
+<violation beginline="617" endline="617" begincolumn="15" endcolumn="31" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigHistory" method="getVersion" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getVersion': the method is declared in an interface type
+</violation>
+<violation beginline="621" endline="621" begincolumn="15" endcolumn="34" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigHistory" method="getTimestamp" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getTimestamp': the method is declared in an interface type
+</violation>
+<violation beginline="625" endline="625" begincolumn="15" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigHistory" method="getSource" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getSource': the method is declared in an interface type
+</violation>
+<violation beginline="629" endline="629" begincolumn="15" endcolumn="32" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigHistory" method="getValue" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getValue': the method is declared in an interface type
+</violation>
+<violation beginline="643" endline="657" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationProvider" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on interface 'ConfigurationProvider': members of interface types are implicitly public
+</violation>
+<violation beginline="643" endline="657" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationProvider" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on interface 'ConfigurationProvider': member interfaces are implicitly static
+</violation>
+<violation beginline="656" endline="656" begincolumn="15" endcolumn="74" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationProvider" method="registerConfigItems" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'registerConfigItems': the method is declared in an interface type
+</violation>
+<violation beginline="666" endline="771" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationListener" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on interface 'ConfigurationListener': members of interface types are implicitly public
+</violation>
+<violation beginline="666" endline="771" begincolumn="18" endcolumn="4" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationListener" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on interface 'ConfigurationListener': member interfaces are implicitly static
+</violation>
+<violation beginline="687" endline="687" begincolumn="15" endcolumn="90" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationListener" method="changing" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'changing': the method is declared in an interface type
+</violation>
+<violation beginline="701" endline="701" begincolumn="15" endcolumn="81" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationListener" method="changed" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'changed': the method is declared in an interface type
+</violation>
+<violation beginline="707" endline="769" begincolumn="22" endcolumn="8" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationListener$BlockingConfigItem" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on class 'BlockingConfigItem': members of interface types are implicitly public
+</violation>
+<violation beginline="707" endline="769" begincolumn="22" endcolumn="8" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.component.api" class="ServerConfigurationService$ConfigurationListener$BlockingConfigItem" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on class 'BlockingConfigItem': types nested within an interface type are implicitly static
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/component/cover/ComponentManager.java">
+<violation beginline="56" endline="56" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ComponentManager" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="82" endline="82" begincolumn="14" endcolumn="54" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ComponentManager" method="isTestingMode" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/component/cover/ServerConfigurationService.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="57" rule="ImportFromSamePackage" ruleset="Error Prone" package="org.sakaiproject.component.cover" class="ServerConfigurationService" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#importfromsamepackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+<violation beginline="65" endline="65" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="67" endline="67" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getServerId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="75" endline="75" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getServerInstance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="83" endline="83" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getServerIdInstance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="91" endline="91" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getServerName" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="99" endline="99" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getServerUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="107" endline="107" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getAccessUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="115" endline="115" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getAccessPath" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="123" endline="123" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getHelpUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="123" endline="123" begincolumn="44" endcolumn="59" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getHelpUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="131" endline="131" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getPortalUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="139" endline="139" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="147" endline="147" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getGatewaySiteId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="155" endline="155" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getLoggedOutUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="163" endline="163" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getUserHomeUrl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="171" endline="171" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getSakaiHomePath" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="179" endline="179" begincolumn="35" endcolumn="50" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getBoolean" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="187" endline="187" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getString" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="187" endline="187" begincolumn="43" endcolumn="58" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getString" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="187" endline="187" begincolumn="68" endcolumn="83" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getString" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="195" endline="195" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getString" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="195" endline="195" begincolumn="43" endcolumn="58" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getString" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="203" endline="203" begincolumn="16" endcolumn="31" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getStrings" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="203" endline="203" begincolumn="46" endcolumn="61" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getStrings" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="211" endline="211" begincolumn="44" endcolumn="59" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolOrder" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="211" endline="211" begincolumn="16" endcolumn="29" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolOrder" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.List' due to existing import 'java.util.List'
+</violation>
+<violation beginline="226" endline="226" begincolumn="48" endcolumn="63" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolsRequired" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="226" endline="226" begincolumn="16" endcolumn="29" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolsRequired" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.List' due to existing import 'java.util.List'
+</violation>
+<violation beginline="241" endline="241" begincolumn="49" endcolumn="64" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getCategoryGroups" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="241" endline="241" begincolumn="16" endcolumn="29" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getCategoryGroups" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.List' due to existing import 'java.util.List'
+</violation>
+<violation beginline="271" endline="271" begincolumn="44" endcolumn="59" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolGroup" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="271" endline="271" begincolumn="16" endcolumn="29" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getToolGroup" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.List' due to existing import 'java.util.List'
+</violation>
+<violation beginline="279" endline="279" begincolumn="47" endcolumn="62" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getDefaultTools" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+<violation beginline="279" endline="279" begincolumn="16" endcolumn="29" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getDefaultTools" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.List' due to existing import 'java.util.List'
+</violation>
+<violation beginline="287" endline="287" begincolumn="27" endcolumn="42" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.cover" class="ServerConfigurationService" method="getInt" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.String' due to existing implicit import 'java.lang.*'
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/component/impl/ComponentManagerShim.java">
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Best Practices" package="org.sakaiproject.component.impl" class="ComponentManagerShim" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.HashSet'
+</violation>
+<violation beginline="49" endline="49" begincolumn="49" endcolumn="73" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.impl" class="ComponentManagerShim" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.HashSet' due to existing import 'java.util.HashSet'
+</violation>
+<violation beginline="50" endline="50" begincolumn="47" endcolumn="71" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.impl" class="ComponentManagerShim" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.HashSet' due to existing import 'java.util.HashSet'
+</violation>
+<violation beginline="51" endline="51" begincolumn="44" endcolumn="68" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.sakaiproject.component.impl" class="ComponentManagerShim" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.util.HashSet' due to existing import 'java.util.HashSet'
+</violation>
+<violation beginline="70" endline="70" begincolumn="50" endcolumn="55" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.sakaiproject.component.impl" class="ComponentManagerShim" method="ComponentManagerShim" variable="parent" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'parent'.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/component/impl/SpringCompMgr.java">
+<violation beginline="106" endline="106" begincolumn="40" endcolumn="45" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.sakaiproject.component.impl" class="SpringCompMgr" method="SpringCompMgr" variable="parent" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'parent'.
+</violation>
+<violation beginline="380" endline="380" begincolumn="8" endcolumn="24" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.component.impl" class="SpringCompMgr" method="removeChildAc" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="381" endline="381" begincolumn="9" endcolumn="53" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.component.impl" class="SpringCompMgr" method="removeChildAc" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/modi/BeanDefinitionSource.java">
+<violation beginline="44" endline="44" begincolumn="12" endcolumn="28" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.modi" class="BeanDefinitionSource" method="getName" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'getName': the method is declared in an interface type
+</violation>
+<violation beginline="49" endline="49" begincolumn="12" endcolumn="63" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.modi" class="BeanDefinitionSource" method="registerBeans" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'registerBeans': the method is declared in an interface type
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/util/ComponentsLoader.java">
+<violation beginline="170" endline="170" begincolumn="6" endcolumn="78" rule="CollapsibleIfStatements" ruleset="Design" package="org.sakaiproject.util" class="ComponentsLoader" method="loadComponentPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="203" endline="203" begincolumn="8" endcolumn="18" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="validComponentsPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="203" endline="203" begincolumn="25" endcolumn="41" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="validComponentsPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="206" endline="206" begincolumn="9" endcolumn="22" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="validComponentsPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="206" endline="206" begincolumn="29" endcolumn="48" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="validComponentsPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="209" endline="209" begincolumn="10" endcolumn="20" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="validComponentsPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="209" endline="209" begincolumn="27" endcolumn="38" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="validComponentsPackage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="235" endline="235" begincolumn="8" endcolumn="22" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="newPackageClassLoader" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="235" endline="235" begincolumn="29" endcolumn="49" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="newPackageClassLoader" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="247" endline="247" begincolumn="8" endcolumn="18" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="newPackageClassLoader" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="247" endline="247" begincolumn="25" endcolumn="41" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="newPackageClassLoader" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="253" endline="253" begincolumn="14" endcolumn="61" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ComponentsLoader" method="accept" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/util/SakaiComponentEvent.java">
+<violation beginline="27" endline="36" begincolumn="16" endcolumn="2" rule="UnnecessaryModifier" ruleset="Code Style" package="org.sakaiproject.util" class="SakaiComponentEvent$Type" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on enum 'Type': nested enums are implicitly static
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/component-manager/src/main/java/org/sakaiproject/util/SakaiProperties.java">
+<violation beginline="87" endline="87" begincolumn="17" endcolumn="121" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="SakaiProperties" method="getBeanFactoryPostProcessors" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="329" endline="329" begincolumn="22" endcolumn="105" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="SakaiProperties$SakaiPropertiesFactoryBean" method="setPropertiesPersister" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2024-04-16T19:40:15.049">
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/content/util/ZipContentUtil.java">
+<violation beginline="75" endline="75" begincolumn="30" endcolumn="53" rule="UnusedPrivateField" ruleset="Best Practices" package="org.sakaiproject.content.util" class="ZipContentUtil" variable="STATE_HOME_COLLECTION_ID" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'STATE_HOME_COLLECTION_ID'.
+</violation>
+<violation beginline="76" endline="76" begincolumn="30" endcolumn="63" rule="UnusedPrivateField" ruleset="Best Practices" package="org.sakaiproject.content.util" class="ZipContentUtil" variable="STATE_HOME_COLLECTION_DISPLAY_NAME" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'STATE_HOME_COLLECTION_DISPLAY_NAME'.
+</violation>
+<violation beginline="177" endline="178" begincolumn="8" endcolumn="6" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.sakaiproject.content.util" class="ZipContentUtil" method="compressFolder" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="193" endline="193" begincolumn="20" endcolumn="27" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.sakaiproject.content.util" class="ZipContentUtil" method="compressFolder" variable="resource" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'resource'.
+</violation>
+<violation beginline="206" endline="208" begincolumn="5" endcolumn="5" rule="CollapsibleIfStatements" ruleset="Design" package="org.sakaiproject.content.util" class="ZipContentUtil" method="compressFolder" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="380" endline="382" begincolumn="5" endcolumn="5" rule="CollapsibleIfStatements" ruleset="Design" package="org.sakaiproject.content.util" class="ZipContentUtil" method="getZipManifest" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="469" endline="471" begincolumn="7" endcolumn="5" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.sakaiproject.content.util" class="ZipContentUtil" method="exportResourceToFile" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="599" endline="599" begincolumn="42" endcolumn="69" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.content.util" class="ZipContentUtil" method="getContainingFolderDisplayName" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="606" endline="606" begincolumn="28" endcolumn="55" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.content.util" class="ZipContentUtil" method="getContainingFolderDisplayName" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/NumberUtil.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Best Practices" package="org.sakaiproject.util" class="NumberUtil" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.Locale'
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/ResourceLoader.java">
+<violation beginline="218" endline="218" begincolumn="11" endcolumn="49" rule="UselessParentheses" ruleset="Code Style" package="org.sakaiproject.util" class="ResourceLoader" method="getFormattedMessage" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="732" endline="734" begincolumn="5" endcolumn="3" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.sakaiproject.util" class="ResourceLoader" method="loadBundle" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/UserNotificationPreferencesRegistrationImpl.java">
+<violation beginline="95" endline="95" begincolumn="3" endcolumn="3" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="UserNotificationPreferencesRegistrationImpl" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+</pmd>

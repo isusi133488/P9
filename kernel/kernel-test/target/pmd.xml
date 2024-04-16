@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2024-04-16T19:40:18.096">
+<file name="/home/alumno/Escritorio/P9/sakai/kernel/kernel-test/src/main/java/org/sakaiproject/test/SakaiTests.java">
+<violation beginline="20" endline="20" begincolumn="1" endcolumn="49" rule="UnusedImports" ruleset="Best Practices" package="org.sakaiproject.test" class="SakaiTests" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.sakaiproject.entity.api.EntityManager'
+</violation>
+<violation beginline="38" endline="38" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" package="org.sakaiproject.test" class="SakaiTests" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="95" endline="96" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.sakaiproject.test" class="SakaiTests" method="setup" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="117" endline="118" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.sakaiproject.test" class="SakaiTests" method="setup" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>
